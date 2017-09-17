@@ -1,0 +1,32 @@
+{
+  "name": "swedish-finance-strings",
+  "version": "1.0.0",
+  "description": "Turns finance data into human readable strings in swedish",
+  "main": "index.js",
+  "scripts": {
+    "test": "tap *.spec.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/finsyn/swedish-finance-strings.git"
+  },
+  "keywords": [
+    "finance",
+    "swedish",
+    "sweden",
+    "javascript",
+    "formatter"
+  ],
+  "author": "tornilssonohrn@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/finsyn/swedish-finance-strings/issues"
+  },
+  "homepage": "https://github.com/finsyn/swedish-finance-strings#readme",
+  "dependencies": {
+    "ramda": "~0.24.1"
+  },
+  "devDependencies": {
+    "tap": "~10.7.2"
+  }
+}
