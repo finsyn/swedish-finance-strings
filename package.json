@@ -1,6 +1,6 @@
 {
   "name": "swedish-finance-strings",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Turns finance data into human readable strings in swedish",
   "main": "index.js",
   "scripts": {
