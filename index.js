@@ -2,6 +2,7 @@ const { hrActor } = require('./actor')
 const { hrPrice, hrSum } = require('./money')
 const { fixedStr } = require('./format')
 const { hrTimeSince, hrDaysAgo } = require('./time')
+const { isBusinessDay } = require('./business-days')
 
 module.exports = {
   hrActor,
@@ -9,6 +10,7 @@ module.exports = {
   hrSum,
   fixedStr,
   hrTimeSince,
-  hrDaysAgo
+  hrDaysAgo,
+  isBusinessDay
 }
 

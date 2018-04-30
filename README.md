@@ -37,3 +37,8 @@ Makes an official swedish company name human readable
 `Float -> String`
 
 Makes a stock share price human readable
+
+### isBusinessDay
+`ISODateString -> Bool`
+
+*WIP* Is the Stockholm market open today?

@@ -24,6 +24,8 @@
   },
   "homepage": "https://github.com/finsyn/swedish-finance-strings#readme",
   "dependencies": {
+    "moment": "~2.22.1",
+    "moment-business-days": "~1.0.6",
     "ramda": "~0.24.1"
   },
   "devDependencies": {
