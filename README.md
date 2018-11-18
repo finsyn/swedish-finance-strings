@@ -38,6 +38,10 @@ Makes an official swedish company name human readable
 
 Makes a stock share price human readable
 
+### orgToVat
+`SwedishOrgNumberString -> InternationalVATNumberString`
+
+*WIP* Is the Stockholm market open today?
 ### isBusinessDay
 `ISODateString -> Bool`
 
