@@ -41,7 +41,8 @@ Makes a stock share price human readable
 ### orgToVat
 `SwedishOrgNumberString -> InternationalVATNumberString`
 
-*WIP* Is the Stockholm market open today?
+Turn a Swedish orgnumber into a internatioal VAT number
+
 ### isBusinessDay
 `ISODateString -> Bool`
 
