@@ -1,4 +1,4 @@
-const { hrActor } = require('./actor')
+const { hrActor, hrCompany } = require('./actor')
 const { hrPrice, hrSum } = require('./money')
 const { fixedStr } = require('./format')
 const { hrTimeSince, hrDaysAgo } = require('./time')
@@ -8,6 +8,7 @@ const { orgToVat } = require('./vat')
 
 module.exports = {
   hrActor,
+  hrCompany,
   hrPrice,
   hrSum,
   fixedStr,

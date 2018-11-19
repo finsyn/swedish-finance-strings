@@ -17,6 +17,9 @@ const hrActor = pipe(
   suffixer
 )
 
+const hrCompany = cleaner
+
 module.exports = {
-  hrActor
+  hrActor,
+  hrCompany
 };
