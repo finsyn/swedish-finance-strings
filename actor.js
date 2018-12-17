@@ -3,7 +3,8 @@ const { concat, replace, test, pipe, __,
 
 const cleaner = pipe(
   replace(/\s\(.*\)$/, ''),
-  replace(/\sAB$/, '')
+  replace(/\s(AB|Aktiebolag)/, ''),
+  replace(/\sför\s.*$/, '')
 )
 
 const suffixer = ifElse(

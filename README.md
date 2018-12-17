@@ -28,7 +28,7 @@ Gives time passed since input date in a reasonable human readable output format
 
 Gives days passed as a complete sentence
 
-### hrActor
+### hrCompany
 `String -> String`
 
 Makes an official swedish company name human readable
